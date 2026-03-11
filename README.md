@@ -28,6 +28,12 @@ A multi-agent research system that coordinates specialized subagents to research
 - Synthesizes findings into detailed reports
 - Demonstrates detailed subagent activity tracking
 
+### 🎨 [AskUserQuestion Previews](./ask-user-question-previews)
+A branding assistant that renders AskUserQuestion options as visual HTML preview cards instead of plain text labels:
+- Opts in to `previewFormat: "html"` so each option includes a styled HTML mockup
+- Round-trips questions from the SDK's `canUseTool` callback to a browser over WebSocket
+- Demonstrates plan mode steering Claude toward clarifying questions before acting
+
 ### 💬 [Simple Chat App](./simple-chatapp)
 A React + Express chat UI backed by the SDK, showing a full conversation loop over WebSocket with streaming responses.
 
